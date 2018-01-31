@@ -8,7 +8,7 @@ t=n;
 while(n!=0)
 {
 rem=n%10;
-rev=rev*10*rem;
+rev=rev*10+rem;
 n=n/10;
 }
 if(t==rev)
