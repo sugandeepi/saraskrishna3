@@ -6,8 +6,8 @@ printf("enter the number\n");
 scanf("%d",&n);
 for(i=0;i<=n;i++)
 {
-fact=fact*1;
+fact=fact*i;
 }
-printf("the factorial of given number is %d",fact)
+printf("the factorial of given number is %d",fact);
 return 0;
 }
