@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 { 
-int a,b,n;
+int a,b,i;
   printf("enter the 1st interval");
   scanf("%d",&a);
   printf("enter the 2nd interval");
@@ -10,8 +10,8 @@ int a,b,n;
   {
     if(i%2==0)
     {
-      printf("%d" is odd no is",i);
+      printf("%d is odd no is",i);
              }
              return 0;
              }
-        
+             }
