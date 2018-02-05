@@ -1,12 +1,13 @@
 #include<stdio.h>
 int main()
 {
-printf("enter the number");
+  int i,n,mul;
+printf("enter the value of n");
 scanf("%d",&n);
 for(i=1;i<=n;i++)
 {
-mul=n*i:
+mul=n*i;
+printf("multiple of a number is %d\t");
 }
-printf("multiple of a number is %d");
 return 0;
 }
