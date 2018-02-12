@@ -1,17 +1,17 @@
 #include<stdio.h>
 int main()
 {
-int n,k,sum=0,a[10];
-printf("enter the two values");
-scanf("%d%d",&n,&k);
-for(i=1;i<=n;i++);
-{
-scanf("%d",a[i]);
-}
-for(i=1;i<=k;i++)
-{
-sum=sum+a[i];
-printf("%d",sum);
-}
-return 0;
+  int n,k,i,j,sum=0;
+  printf("enter the values:");
+  scanf("%d %d",&n,&k);
+  for(i=1;i<=n;i++)
+  {
+    printf("%d\n",n);
+  }
+  for(j=1;j<=k;j++)
+  {
+    sum=sum+j;
+  }
+  printf("sum is %d",sum);
+  return 0;
 }
