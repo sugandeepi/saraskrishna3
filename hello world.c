@@ -6,6 +6,6 @@ printf("enter the number\n");
 scanf("%d%d",&n);
 for(i=0;i<n;i++)
 {
-printf("HELLO\n")
+printf("HELLO\n");
 }
 }
